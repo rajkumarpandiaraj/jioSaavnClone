@@ -1,0 +1,21 @@
+.showcase-container{
+    /* background-color: red; */
+    margin: 6rem 2rem 5rem 13.5rem;
+} 
+.showcase-row h4{
+    margin: 1.5rem 0 0.8rem 4.2rem ;
+    color: #3e3e3e;
+    font-size: 1.33333rem;
+}
+
+@media(max-width : 1100px){
+    .showcase-container{
+        margin: 6rem 2rem 5rem 2rem;
+    }
+
+}
+@media(max-width : 400px){
+    .showcase-row h4{
+        margin-left: 3rem;
+    }
+}

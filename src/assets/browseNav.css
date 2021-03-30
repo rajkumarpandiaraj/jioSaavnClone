@@ -1,0 +1,28 @@
+
+.browse-nav{
+    /* padding: 1rem 0 0 0; */
+    /* background-color: red; */
+    width: 90%;
+    margin: 7rem auto 0 auto;
+    border-bottom: 1px solid rgba(182, 181, 181, 0.4);
+}
+.browse-nav-item{
+    margin-right: 1.5rem;
+    cursor: pointer;
+    pointer-events: all;
+}
+.browse-nav-item .border{
+    margin-top: 1rem;
+}
+.browse-nav-item:hover .border{
+    visibility: visible;
+}
+.browse-nav-link{
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: initial;
+}
+.browse-nav-active-link .border{
+    visibility: visible;
+}

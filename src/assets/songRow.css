@@ -1,0 +1,37 @@
+.carousel-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.caro-songs-container{
+    padding: 1rem 0.5rem;
+    /* background-color: aqua; */
+    max-width: 90%;
+    margin: auto;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.caro-songs-container::-webkit-scrollbar{
+    /* display: none; */
+}
+.caro-btn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    align-self: center;
+    margin-top: -1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caro-btn:hover{
+    cursor: pointer;
+    background-color: #d1d1d1;
+}
+.caro-left{
+    visibility: hidden;
+}
